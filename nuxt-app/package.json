@@ -6,10 +6,13 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "predeploy": "npm run build",
+    "delploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@types/node": "^18",
+    "gh-pages": "^5.0.0",
     "nuxt": "^3.4.3"
   }
 }
