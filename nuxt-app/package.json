@@ -9,7 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "nuxt generate && touch dist/.nojekyll && cd dist && git init && git add . && git commit -m 'deploy' && git push -f https://github.com/knm8643/opensimlitest.git main:gh-pages"
   },
   "devDependencies": {
     "@types/node": "^18",
