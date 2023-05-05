@@ -5,6 +5,6 @@ export default {
     },
     router: {
         base: '/opensimlitest/'
-    }
-    // buildDir: 'build'
+    },
+    buildDir: 'build'
 }

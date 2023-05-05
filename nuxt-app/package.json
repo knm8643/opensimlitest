@@ -9,7 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --add",
+    "deploy": "gh-pages -d build",
     "copy": "cp -R dist dist-deploy",
     "push-lib": "git subtree push —prefix dist-deploy origin gh-pages"
   },
