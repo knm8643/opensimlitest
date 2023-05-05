@@ -8,7 +8,7 @@ export default {
     "resourceType": "script",
     "module": true,
     "css": [],
-    "file": "error-404.9ff84805.js",
+    "file": "error-404.4b6e738d.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -28,7 +28,7 @@ export default {
     "resourceType": "script",
     "module": true,
     "css": [],
-    "file": "error-500.9254d269.js",
+    "file": "error-500.129e08f9.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -45,7 +45,7 @@ export default {
     "dynamicImports": [
       "virtual:nuxt:/Users/ichungjae/git/opensimlitest/nuxt-app/build/error-component.mjs"
     ],
-    "file": "entry.7c489de7.js",
+    "file": "entry.ae67f277.js",
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.js"
   },
@@ -56,7 +56,7 @@ export default {
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "error-component.60b8a32c.js",
+    "file": "error-component.829442ca.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
