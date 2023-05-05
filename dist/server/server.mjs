@@ -613,7 +613,7 @@ const _export_sfc = (sfc, props) => {
 };
 const _sfc_main$1 = {};
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<div${ssrRenderAttrs(_attrs)}> 노성찬 바보 </div>`);
+  _push(`<div${ssrRenderAttrs(_attrs)}> 노성찬 바보! </div>`);
 }
 const _sfc_setup$1 = _sfc_main$1.setup;
 _sfc_main$1.setup = (props, ctx) => {
