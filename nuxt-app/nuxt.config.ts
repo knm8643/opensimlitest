@@ -3,8 +3,9 @@ export default defineNuxtConfig({
     generate: {
         dir: 'dist'
     },
+    target: 'static',
     router: {
         base: '/opensimlitest/'
-    },
-    buildDir: 'build'
+    }
+    // buildDir: 'build'
 })
