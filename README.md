@@ -2,3 +2,4 @@
 npm install nuxt
 npm install -g nuxt
 npm install gh-pages --save-dev
+gh-pages -d build
