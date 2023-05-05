@@ -9,7 +9,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "push-lib": "git add -f dist && git commit -m 'Update library' && git push origin `git subtree split —prefix dist main`:gh-pages —force"
   },
   "devDependencies": {
     "@types/node": "^18",
