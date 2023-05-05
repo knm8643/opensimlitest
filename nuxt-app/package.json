@@ -9,10 +9,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "predeploy": "npm run build",
-
-    "deploy": "npm run generate && npm run copy && npm run push-lib",
+    "deploy": "gh-pages -d build",
     "copy": "cp -R dist dist-deploy",
-
     "push-lib": "git subtree push —prefix dist-deploy origin gh-pages"
   },
   "devDependencies": {
