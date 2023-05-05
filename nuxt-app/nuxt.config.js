@@ -1,10 +1,10 @@
 export default {
     target: 'static',
     generate: {
-        dir: 'public'
+        dir: 'build'
     },
     router: {
         base: '/opensimlitest/'
-    },
+    }
     // buildDir: 'build'
 }

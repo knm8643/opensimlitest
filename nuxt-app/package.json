@@ -5,11 +5,11 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "generate": "rimraf dist && nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist --add",
     "copy": "cp -R dist dist-deploy",
     "push-lib": "git subtree push —prefix dist-deploy origin gh-pages"
   },
