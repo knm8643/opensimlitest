@@ -43,13 +43,13 @@ export default {
     "resourceType": "script",
     "module": true,
     "dynamicImports": [
-      "virtual:nuxt:/Users/ichungjae/git/opensimlitest/nuxt-app/build/error-component.mjs"
+      "virtual:nuxt:/Users/ichungjae/git/opensimlitest/nuxt-app/nuxt-dist/error-component.mjs"
     ],
     "file": "entry.7c489de7.js",
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.js"
   },
-  "virtual:nuxt:/Users/ichungjae/git/opensimlitest/nuxt-app/build/error-component.mjs": {
+  "virtual:nuxt:/Users/ichungjae/git/opensimlitest/nuxt-app/nuxt-dist/error-component.mjs": {
     "resourceType": "script",
     "module": true,
     "dynamicImports": [
@@ -61,6 +61,6 @@ export default {
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
-    "src": "virtual:nuxt:/Users/ichungjae/git/opensimlitest/nuxt-app/build/error-component.mjs"
+    "src": "virtual:nuxt:/Users/ichungjae/git/opensimlitest/nuxt-app/nuxt-dist/error-component.mjs"
   }
 }

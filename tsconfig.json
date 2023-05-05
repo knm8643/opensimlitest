@@ -57,16 +57,16 @@
         "node_modules/nuxt/dist/app/compat/vue-demi"
       ],
       "#imports": [
-        "build/imports"
+        "nuxt-dist/imports"
       ],
       "#build": [
-        "build"
+        "nuxt-dist"
       ],
       "#build/*": [
-        "build/*"
+        "nuxt-dist/*"
       ],
       "#components": [
-        "build/components"
+        "nuxt-dist/components"
       ]
     }
   },

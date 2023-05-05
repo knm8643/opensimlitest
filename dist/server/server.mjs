@@ -196,7 +196,7 @@ function useRuntimeConfig() {
 function defineGetter(obj, key, val) {
   Object.defineProperty(obj, key, { get: () => val });
 }
-const components_plugin_xns2MZGh6s = /* @__PURE__ */ defineNuxtPlugin({
+const components_plugin_sIDK6K9VnH = /* @__PURE__ */ defineNuxtPlugin({
   name: "nuxt:global-components"
 });
 function resolveUnref(r) {
@@ -600,7 +600,7 @@ const router_CaKIoANnI2 = /* @__PURE__ */ defineNuxtPlugin({
   }
 });
 const _plugins = [
-  components_plugin_xns2MZGh6s,
+  components_plugin_sIDK6K9VnH,
   unhead_KgADcZ0jPj,
   router_CaKIoANnI2
 ];
